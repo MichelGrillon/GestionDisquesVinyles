@@ -4,6 +4,9 @@ Exercice / projet dans le cadre de ma formation.
 
 Gestion d'utilisateurs, d'emprunteurs, d'emprunts et de disques vinyles en MVC.
 
+Les fichiers de connections à la base de données (/Core/Dbconnect et connect) sont anonymisés. Des liens ont été modifiés (et sont donc incorrects).
+
+
 Enoncé :
 
 Vous devez développer une solution de gestion d'emprunt de disques vinyles. 
