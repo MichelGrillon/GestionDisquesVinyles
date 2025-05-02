@@ -9,7 +9,7 @@ $_SESSION['csrf_token'] = $csrf_token;
 ?>
 
 <?php ob_start(); ?>
-<form action="http://monsite/projects/php/Vinyl/Core/register.php" method="POST">
+<form action="http://xxxxx/Core/register.php" method="POST">
     <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($csrf_token); ?>">
     <div class="mb-3">
         <label for="email" class="form-label">Votre email</label>
