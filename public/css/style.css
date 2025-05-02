@@ -9,7 +9,8 @@ html {
     /* Centrer horizontalement */
     align-items: center;
     /* Centrer verticalement */
-    /*background-image: url('../images/fond.jpg');*/
+    background-color: black;
+    
 }
 
 header,
@@ -22,10 +23,10 @@ footer {
 header {
     position: relative;
     z-index: 1;
-    color: white; /* ou une autre couleur bien lisible */
+    color: red; /* ou une autre couleur bien lisible */
     padding: 2rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -36,7 +37,7 @@ header::before {
     background-image: url('../images/disques.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.5; /* contrôle la transparence ici */
+    opacity: 0.3; /* contrôle la transparence ici */
     z-index: -1;
 }
 
@@ -58,18 +59,33 @@ footer {
 }
 
 main {
+    position: relative;
+    z-index: 1;
     text-align: center;
         /* Centrer le contenu du main */
     margin-top: 10px;
     /* Ajuster la marge supérieure souhaitée en pixels */
     margin-bottom: 10px;
         /* Ajouter de la marge en bas */
+    color: yellow;
+    
+}
+
+main::before  {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../images/fond.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* contrôle la transparence ici */
+    z-index: -1;
 }
 
 main h1 {
    margin-bottom: 5px;
    /* Ajouter de la marge en dessous du titre h1 */
-    
+       
 }
 
 main .btn {
