@@ -25,10 +25,10 @@ class Connect
             define('USER', 'root');
         }
         if (!defined('PASSWORD')) {
-            define('PASSWORD', 'Tolos@31');
+            define('PASSWORD', 'xxxxx');
         }
         if (!defined('BASE')) {
-            define('BASE', 'michely31');
+            define('BASE', 'xxxxx');
         }
 
         try {
