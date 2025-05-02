@@ -8,7 +8,7 @@ $csrf_token = bin2hex(random_bytes(32));
 $_SESSION['csrf_token'] = $csrf_token;
 ?>
 
-<form action="http://monsite/projects/php/Vinyl/Core/auth.php" method="post">
+<form action="http://xxxxx/Core/auth.php" method="post">
     <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($csrf_token); ?>">
     <div class="mb-3">
         <label for="email" class="form-label">Votre email</label>
